@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(/images/drops-blue.jpg.crdownload);
+    -webkit-background-size: cover;
+}
+form{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+h2{
+    margin-left: 10px;
+    margin-bottom: 60px;
+    color: #030e45f0;
+    margin-bottom: 15px;
+
+}
+.image-container p{
+    margin-top: 100px;
+    margin-left: 90px;
+    font-size: small;
+    margin-bottom: 7px;
+
+}
+img{
+    margin-left: 15px;
+    border: none;
+}
+.main-container{
+    /* background: rgb(194, 189, 189); */
+    /* background: rgb(238, 238, 238); */
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 765px;
+
+    
+    /* height: 100vh;
+    margin: 150px;
+    width: 800px;
+    margin-right: 500px; */
+    
+    /* margin-top: 40px;
+    margin-bottom: 40px; */
+}
+.form-container-header{
+    font-size: 20px;
+    margin-bottom: 15px;
+
+}
+h2{
+    color: #030e45f0;
+}
+::placeholder{
+    align-items: center;
+}
+.form-container{
+    /* background: rgb(225, 224, 224); */
+    /* background: rgb(238, 238, 238); */
+   background-color: #fff;
+    width: 500px;
+    height: 400px;
+    padding: 30px;
+    gap: 10px;
+    margin-left: 30px;
+    
+}
+.input-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+}
+.input-wrapper input{
+    padding: 11px;
+    margin-bottom: 15px;
+    border-color: rgb(11, 170, 202);
+}
+/* .check-box-p{
+    display: flex;
+    justify-content: left;
+} */
+.check-box-p input, span{
+    margin-top: 10px;
+}
+.check-box-p input{
+    margin-right: 5px;
+    color: rgb(10, 209, 249);
+}
+.check-box-p a{
+    margin-top: 10px;
+}
+.btns{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    align-items: center;
+    gap: 15px;
+}
+button{
+    align-items: center;
+    width: 128px;
+    height: 38px;
+    border: none;
+    background-color: rgb(10, 146, 174);
+    color: #fff;
+    cursor: pointer;
+}
+a{
+    float: right;
+    /* margin-top: 15px; */
+    /* margin-top: 58px; */
+    margin-left: 115px;
+    text-decoration: none;
+    color: black;
+    font-size: small;
+    margin-right: 70px;
+
+}
+    
